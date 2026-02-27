@@ -6,19 +6,18 @@ This repository presents SQL schema definitions, data insertion scripts, query e
 ## Repository Structure
 
 Pok-mon_SQL/
-├── pokemon.sql # Main schema & data for Pokémon entities
-├── types.sql # Schema & data for Pokémon types
-├── moves.sql # Schema & data for Pokémon moves
-├── queries.sql # Exercise queries / baseline queries
-├── opt_queries.sql # Optimized or advanced SQL queries
-├── poke_SQL.ipynb # Jupyter notebook with interactive exercises
+- pokemon.sql # Main schema & data for Pokémon entities
+- types.sql # Schema & data for Pokémon types
+- moves.sql # Schema & data for Pokémon moves
+- queries.sql # Exercise queries / baseline queries
+- opt_queries.sql # Optimized or advanced SQL queries
+- poke_SQL.ipynb # Jupyter notebook with interactive exercises
 
+**`pokemon.sql`**, **`types.sql`**, **`moves.sql`**: define database tables (e.g. Pokémon, Types, Moves) and load sample data.  
+**`queries.sql`**: contains typical SQL exercises or example queries to run on the database.  
+**`opt_queries.sql`**: advanced or optimized versions of queries (using indices, joins, window functions, etc.).  
+**`poke_SQL.ipynb`**: notebook embedding SQL queries and their execution (via a SQL kernel or via Python connectors) for interactive exploration and validation.
 
-- **`pokemon.sql`**, **`types.sql`**, **`moves.sql`**: define database tables (e.g. Pokémon, Types, Moves) and load sample data.  
-- **`queries.sql`**: contains typical SQL exercises or example queries to run on the database.  
-- **`opt_queries.sql`**: advanced or optimized versions of queries (using indices, joins, window functions, etc.).  
-- **`poke_SQL.ipynb`**: notebook embedding SQL queries and their execution (via a SQL kernel or via Python connectors) for interactive exploration and validation.
-- 
 ## Goals & Learning Outcomes
 
 This repository aims to help you:
